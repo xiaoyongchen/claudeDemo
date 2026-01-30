@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* 品牌色 */
+  --brand-primary: #1D5CFF;
+  --brand-hover: #4080FF;
+
+  /* 功能色 */
+  --success: #00B42A;
+
+  /* 中性色 */
+  --neutral-bg: #F4F5F7;
+  --neutral-white: #FFFFFF;
+  --neutral-black: #000000;
+  --neutral-border: #E5E6EB;
+  --neutral-text-primary: #1D2129;
+  --neutral-text-secondary: #4E5969;
+  --neutral-text-tertiary: #86909C;
+  --neutral-text-disabled: #C9CDD4;
+  --neutral-text-neutral: #666F8D;
+
+  /* 输入框 */
+  --input-bg: #FFFFFF;
+  --input-text-dark: #19213D;
+}
+
+body {
+  font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--neutral-text-primary);
+  background: var(--neutral-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+input, textarea, button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
